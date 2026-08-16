@@ -1,9 +1,14 @@
-#include<iostream>
+#include <iostream>
 using namespace std;
 
-int sum(int a , int b)
+int sum(int a, int b)
 {
-    return a+b;
+    return a + b;
+}
+
+int multi(int s, int g)
+{
+    return s * g;
 }
 
 int main()
